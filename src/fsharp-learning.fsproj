@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>fsharp_course_for_beginners</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="main-concepts\pure-functions.fsx" />
+    <None Include="main-concepts\declarative-over-imperative.fsx" />
+    <None Include="main-concepts\immutability.fsx" />
+    <Compile Include="collections\dictionary.fsx" />
+    <Content Include="files\test.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="async-examples.fsx" />
+    <Compile Include="classes-and-interfaces.fsx" />
+    <Compile Include="static-members.fsx" />
+    <Compile Include="strings.fsx" />
+    <Compile Include="record-types.fsx" />
+    <Compile Include="union-type.fsx" />
+    <Compile Include="loops.fsx" />
+    <Compile Include="exceptions.fsx" />
+    <None Include="interfaces.fsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Http.fs" Version="5.4.0" />
+  </ItemGroup>
+</Project>
