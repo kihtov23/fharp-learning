@@ -5,24 +5,30 @@
     <RootNamespace>fsharp_course_for_beginners</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="todo.txt" />
+    <None Include="main-concepts\expressions.fsx" />
     <None Include="main-concepts\pure-functions.fsx" />
     <None Include="main-concepts\declarative-over-imperative.fsx" />
     <None Include="main-concepts\immutability.fsx" />
-    <Compile Include="collections\dictionary.fsx" />
+    <None Include="expressions\control-flow\loops.fsx" />
+    <Folder Include="expressions\computation\" />
+    <None Include="collections\dictionary.fsx" />
+    <None Include="types\interfaces.fsx" />
+    <None Include="types\strings.fsx" />
+    <None Include="types\classes-and-interfaces.fsx" />
+    <None Include="types\union-type.fsx" />
+    <None Include="types\record-types.fsx" />
     <Content Include="files\test.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Compile Include="async-examples.fsx" />
-    <Compile Include="classes-and-interfaces.fsx" />
-    <Compile Include="static-members.fsx" />
-    <Compile Include="strings.fsx" />
-    <Compile Include="record-types.fsx" />
-    <Compile Include="union-type.fsx" />
-    <Compile Include="loops.fsx" />
-    <Compile Include="exceptions.fsx" />
-    <None Include="interfaces.fsx" />
+    <None Include="exceptions.fsx" />
+    <None Include="async-examples.fsx" />
+    <None Include="static-members.fsx" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Http.fs" Version="5.4.0" />
+  </ItemGroup>
+  <ItemGroup>
+    
   </ItemGroup>
 </Project>

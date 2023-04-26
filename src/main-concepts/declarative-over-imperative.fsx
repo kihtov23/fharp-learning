@@ -1,4 +1,7 @@
-﻿//imperative: define what we need to do step by step
+﻿//F# principle ------------ declarative over imperative --------------------
+//
+
+//imperative: define what we need to do step by step
 //this is not a desired way to program in F#, it is just an illustration of imperative approach 
 let numbers = [1..10]
 let mutable result : int array = [||]

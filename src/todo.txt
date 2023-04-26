@@ -1,0 +1,5 @@
+﻿1. binding with let, use and do
+https://fsharpforfunandprofit.com/posts/let-use-do/
+https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/functions/let-bindings
+
+2. 
