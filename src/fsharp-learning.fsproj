@@ -24,6 +24,7 @@
     <None Include="exceptions.fsx" />
     <None Include="async-examples.fsx" />
     <None Include="static-members.fsx" />
+    <None Include="type-signatures-and-type-inference.fsx" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Http.fs" Version="5.4.0" />
