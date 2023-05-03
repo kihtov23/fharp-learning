@@ -14,6 +14,6 @@ for n in numbers
 printfn "imperative result: %A" result
 
 
-//declarative: describe what you want 
+//declarative: describe what you want to get
 let newResult = [1..10] |> Seq.where (fun num -> (num%2) <> 0)
 printfn "declarative result: %A" newResult

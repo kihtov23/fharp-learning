@@ -18,7 +18,6 @@ let list1 = [1;2;3;4]
 // "0::" adds 0 to the beginning of new list
 let list2 = 0::list1
 
-//[TODO] why tail is [1;2;3;4] but not just 4 ???
 let list3 = list2.Tail
 
 System.Object.ReferenceEquals(list1, list3)

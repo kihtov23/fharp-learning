@@ -6,6 +6,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="todo.txt" />
+    <None Include="asynchronous-programming\async.fsx" />
     <None Include="main-concepts\expressions.fsx" />
     <None Include="main-concepts\pure-functions.fsx" />
     <None Include="main-concepts\declarative-over-imperative.fsx" />

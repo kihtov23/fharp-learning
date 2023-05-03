@@ -2,4 +2,9 @@
 https://fsharpforfunandprofit.com/posts/let-use-do/
 https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/functions/let-bindings
 
-2. 
+2.  partial application
+
+3. check repos from Isaac
+https://github.com/CompositionalIT/TodoService
+https://github.com/CompositionalIT/safe-search-3
+https://safesearch3.azurewebsites.net/

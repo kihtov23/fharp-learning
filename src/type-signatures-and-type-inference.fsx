@@ -1,5 +1,7 @@
 open System
 open System.Collections.Generic
+
+//https://fsharpforfunandprofit.com/posts/function-signatures/
 // F# has 2 types of syntaxes
 //1 - normal expressions
 //2 - type definitions
@@ -43,7 +45,8 @@ let a:TwoConverters = fun x -> (fun y -> Convert.ToInt32(x)  + Convert.ToInt32(y
 // now it compiles
 let c                  = fun x -> (fun y -> x  + y)
 
-//--- Exercise: write functions that fit these signatures:
+//--- Exercise: write functions that fit these signatures ( avoid using explicit type annotations!):
+
 
 //val testA = int -> int
 let testA x = x + x
@@ -53,8 +56,7 @@ let testB x y = x + y
 
 //val testC = int -> (int -> int)
 //[TODO] not sure how to solve this. why x becomes 'a here?
-let testC x = testB 2
-
+let testC z = testB 2
 
 //[TODO] - this is in progress
 //val testD = (int -> int) -> int
