@@ -7,6 +7,7 @@
   <ItemGroup>
     <Content Include="todo.txt" />
     <None Include="asynchronous-programming\async.fsx" />
+    <None Include="asynchronous-programming\async-examples.fsx" />
     <None Include="main-concepts\expressions.fsx" />
     <None Include="main-concepts\pure-functions.fsx" />
     <None Include="main-concepts\declarative-over-imperative.fsx" />
@@ -23,7 +24,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="exceptions.fsx" />
-    <None Include="async-examples.fsx" />
     <None Include="static-members.fsx" />
     <None Include="type-signatures-and-type-inference.fsx" />
   </ItemGroup>

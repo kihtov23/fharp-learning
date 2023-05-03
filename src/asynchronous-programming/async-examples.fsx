@@ -14,4 +14,6 @@ let x =
     } 
 
 x.Wait()
+//or
+//x.Result
         
