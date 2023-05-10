@@ -20,6 +20,7 @@
     <None Include="types\classes-and-interfaces.fsx" />
     <None Include="types\union-type.fsx" />
     <None Include="types\record-types.fsx" />
+    <None Include="types\tuples.fsx" />
     <Content Include="files\test.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

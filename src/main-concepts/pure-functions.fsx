@@ -16,3 +16,19 @@ let getUserName() =
     printfn "Name: %s" name
 
 getUserName()
+
+//curried function
+let add a b = a + b
+
+//tupled function, requires all arguments 
+let multiply (a, b) = a*b
+
+//curried function exercise:
+//Isaac book p 129
+let writeToFile (date:System.DateTime) fileName text =
+    let fileName = sprintf "%s-%s.txt" (date.ToString("yyMMdd")) fileName
+    System.IO.File.WriteAllText (fileName, text)
+writeToFile System.DateTime.Now "someTitle" "Hello world"
+
+let writeToTodayFile = writeToFile System.DateTime.Now
+let writeToTodayFileTestText = writeToTodayFile "test text"

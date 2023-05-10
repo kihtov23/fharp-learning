@@ -49,18 +49,22 @@ let c                  = fun x -> (fun y -> x  + y)
 
 
 //val testA = int -> int
-let testA x = x + x
+let testA x = x + 100
 
 //val testB = int -> int -> int
-let testB x y = x + y
+let testB x y = x - y -1
 
 //val testC = int -> (int -> int)
-//[TODO] not sure how to solve this. why x becomes 'a here?
-let testC z = testB 2
+let testC z = testB (z+100)
 
-//[TODO] - this is in progress
 //val testD = (int -> int) -> int
+let testD func = (func 100) + 50
+let result = testD (fun a -> a+a)
+
 //val testE = int -> int -> int -> int
-//val testF = (int -> int) -> (int -> int)
+let testE a b c = a+b+c+1
+
+//[TODO] complete these
+//val testF = (int -> int) -> (int -> int) 
 //val testG = int -> (int -> int) -> int
 //val testH = (int -> int -> int) -> int
