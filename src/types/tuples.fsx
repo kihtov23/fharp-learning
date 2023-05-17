@@ -14,7 +14,7 @@ printfn "second name = %s" secondName
 let _, secondNameOnly = parseName("Oleh Kikhtov")
 printfn "second name only: %s" secondNameOnly
 
-let thisIsTubleNotDecimal = 1,2
+let thisIsTupleNotDecimal = 1,2
 
 //exercise
 let parse(person: string)=

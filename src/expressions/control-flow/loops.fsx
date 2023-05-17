@@ -13,3 +13,4 @@ for name in names do
 //Create new collection 
 let newNames = [for name in names do name.ToUpper()]
 newNames |> List.iter (fun (n)-> printfn "newName: %s" n)
+
