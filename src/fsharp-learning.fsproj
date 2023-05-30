@@ -12,8 +12,7 @@
     <None Include="main-concepts\pure-functions.fsx" />
     <None Include="main-concepts\declarative-over-imperative.fsx" />
     <None Include="main-concepts\immutability.fsx" />
-    <None Include="expressions\control-flow\loops.fsx" />
-    <Folder Include="expressions\computation\" />
+    <None Include="expressions\loops.fsx" />
     <None Include="expressions\match.fsx" />
     <None Include="collections\dictionary.fsx" />
     <None Include="types\interfaces.fsx" />
@@ -25,9 +24,11 @@
     <Content Include="files\test.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="exceptions.fsx" />
-    <None Include="static-members.fsx" />
-    <None Include="type-signatures-and-type-inference.fsx" />
+    <None Include="features\exceptions.fsx" />
+    <None Include="features\static-members.fsx" />
+    <None Include="features\type-signatures-and-type-inference.fsx" />
+    <None Include="features\option.fsx" />
+    <None Include="features\modeling.fsx" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Http.fs" Version="5.4.0" />

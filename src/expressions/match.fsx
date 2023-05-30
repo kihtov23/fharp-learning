@@ -43,6 +43,7 @@ let matchTupleWithOrAnd (a, b) =
     //this is incomplete pattern matching, thats why see error
     match (a, b) with
     | (2, y) | (3, y) -> "x is 2 or 3"
+    | (6, y) | (y, 6) -> "bla"
     | (x, 4) & (4, y) -> "this is weird example but here expected result is (4, 4)"
     
 // ! general rule - if we match to some union cases -> avoid wildcard
@@ -83,11 +84,12 @@ type A() = class end
 type B() = inherit A()
 type C() = inherit A()
 
-let matchDerivedClass (a: A) =
+let matchDerivedClass (a: obj) =
     match a with
     | :? C -> printfn "this is C"
     | :? B -> printfn "this is B"
     | :? A -> printfn "this is A"
+    | _ -> printfn "bla"
     
 matchDerivedClass (new A())
 matchDerivedClass (new B())
@@ -119,11 +121,10 @@ doSomething "one"
     
 let doSomethingHere =
     function
-    | "one" -> printfn "bla"
+    | ("one", "two") -> printfn "bla"
     | _ -> printfn "bla bla"
-doSomethingHere "one"
+doSomethingHere ("one", "three")
 
-    
     
 
 
