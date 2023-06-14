@@ -21,6 +21,7 @@
     <None Include="types\union-type.fsx" />
     <None Include="types\record-types.fsx" />
     <None Include="types\tuples.fsx" />
+    <None Include="types\values.fsx" />
     <Content Include="files\test.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -30,6 +31,8 @@
     <None Include="features\option.fsx" />
     <None Include="features\modeling.fsx" />
     <None Include="features\binding-let-use-do.fsx" />
+    <None Include="features\module.fsx" />
+    <None Include="features\namespaces.fsx" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Http.fs" Version="5.4.0" />

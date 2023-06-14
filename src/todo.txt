@@ -1,5 +1,4 @@
 ﻿1. binding with let, use and do
-https://fsharpforfunandprofit.com/posts/let-use-do/
 https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/functions/let-bindings
 
 2.  partial application
@@ -8,3 +7,6 @@ https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/functions/let
 https://github.com/CompositionalIT/TodoService
 https://github.com/CompositionalIT/safe-search-3
 https://safesearch3.azurewebsites.net/
+
+4. namespaces 
+https://fsharpforfunandprofit.com/posts/organizing-functions/

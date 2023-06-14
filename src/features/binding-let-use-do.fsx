@@ -66,6 +66,3 @@ let someFunction() x y =
     
 // we have side effect ("do something" is printed) but we don't need the result
 do someFunction() 1 2 |> ignore
-
-
-   
