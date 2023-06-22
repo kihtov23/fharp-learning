@@ -16,9 +16,9 @@ module C =
     let addThreeNumbers x y z =
         (add x y) + z
         
-// ! for each .fs file
+// ! for each .fs file (not .fsx)
 // There should be top level module !
-// no need for = sign
+// no need for "=" sign
 // the content is not indented
         
 // module could contain
@@ -60,3 +60,9 @@ module R =
     //open X
     ()
     
+// ! organize type and functions that operate it. 2 options:
+// 1. delcare type separatelly from functions
+// 2. declare type and function in the same module
+
+// I prefer second option because it increases maintainability bc F# depends on code order.
+// so I could put all types above business logic not to refactor it later 

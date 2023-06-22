@@ -33,6 +33,7 @@
     <None Include="features\binding-let-use-do.fsx" />
     <None Include="features\module.fsx" />
     <None Include="features\namespaces.fsx" />
+    <None Include="features\access-modifiers.fsx" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Http.fs" Version="5.4.0" />
