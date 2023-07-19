@@ -34,6 +34,7 @@
     <None Include="features\module.fsx" />
     <None Include="features\namespaces.fsx" />
     <None Include="features\access-modifiers.fsx" />
+    <None Include="validation\validation-function.fsx" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Http.fs" Version="5.4.0" />

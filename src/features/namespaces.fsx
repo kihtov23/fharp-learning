@@ -12,7 +12,7 @@ namespace namespaceB
         let add x y = x + y
         
 // f# does not have global namespace - you should add namespace manually
-// namespace can directly contain type declaration, but not function delcaration
+// namespace can directly contain type declaration, but not function declaration 
 // all function and value declaration should be in module
 
 // ! namespaces don't work well in .fsx scripts

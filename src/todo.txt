@@ -1,4 +1,9 @@
-﻿1. binding with let, use and do
+﻿Next plane
+-- how does CreateOrUpdateRegistration in CreateRegistration.fs and CreateOrUpdateRegistration Registration/Shared.fs works?
+-- pipelines
+
+
+1. binding with let, use and do
 https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/functions/let-bindings
 
 2.  partial application
@@ -7,6 +12,14 @@ https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/functions/let
 https://github.com/CompositionalIT/TodoService
 https://github.com/CompositionalIT/safe-search-3
 https://safesearch3.azurewebsites.net/
+and much more are here 
+https://fsharp.org/community/projects/
 
 4. namespaces 
 https://fsharpforfunandprofit.com/posts/organizing-functions/
+
+5. move the content of docs to the project and remove doc
+https://docs.google.com/document/d/14aqk3HmU6R9ns62mrCrGh3aKISpvxKqoRNr_1KHuLjM/edit
+
+6. play with temp file, practice module creating, class, interface, record, union, record 
+replicate code order issue. 
